@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaveForm">
+        <attr name="wave_progress" format="float" />
+        <attr name="wave_max_progress" format="float" />
+        <attr name="wave_visible_progress" format="float" />
+        <attr name="wave_width" format="dimension" />
+        <attr name="wave_gap" format="dimension" />
+        <attr name="wave_padding_top" format="dimension" />
+        <attr name="wave_padding_Bottom" format="dimension" />
+        <attr name="wave_padding_left" format="dimension" />
+        <attr name="wave_padding_right" format="dimension" />
+        <attr name="wave_min_height" format="dimension" />
+        <attr name="wave_corner_radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DialogMessageContainerView">
+
+        <attr name="android:gravity" format="integer" />
+        <attr name="containerColor" format="color" />
+        <attr name="timeTextColor" format="color" />
+        <attr name="isCheckEnabled" format="boolean" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="cardStartMargin" format="dimension" />
+        <attr name="cardTopMargin" format="dimension" />
+        <attr name="cardEndMargin" format="dimension" />
+        <attr name="cardBottomMargin" format="dimension" />
+        <attr name="replyContainerColor" format="color" />
+        <attr name="replyDividingLineColor" format="color" />
+        <attr name="replyTitleTextColor" format="color" />
+        <attr name="replyDescriptionTextColor" format="color" />
+        <attr name="tailView" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="TextMessageView">
+
+        <attr name="android:textColor" format="color" />
+        <attr name="android:textSize" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="VoiceMessageView">
+
+        <attr name="waveBackgroundColor" format="color" />
+        <attr name="waveProgressColor" format="color" />
+        <attr name="durationColor" format="color" />
+        <attr name="playView" format="reference" />
+        <attr name="pauseView" format="reference" />
+
+    </declare-styleable>
+
+</resources>
